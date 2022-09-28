@@ -1,4 +1,4 @@
-//Write a C pro
+//Write a C program to create a file and write contents, save and close the file
 
 #include <stdio.h>
 
