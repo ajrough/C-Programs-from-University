@@ -14,7 +14,7 @@ class Triangle{
         this -> s3 = s3;
     }
     void printArea(){
-        cout<<"The area is "<<sqrt((peri/2)*((peri/2)-s1)*((peri/2)-s2)*((peri/2)-s3))<<endl;
+        cout<<"The area is "<<sqrt(semi*(semi-s1)*(semi-s2)*(semi-s3))<<endl;
     }
     void printPerimeter(){
         cout<<"The Perimeter is "<<s1+s2+s3<<endl;
